@@ -12,6 +12,5 @@ def shutdown():
         sleep(1)
         os.system("shutdown /s /t 30")          #("shutdown /s /t 30")
                                                 #(/s) -> to shutdown, replace with /r to restart
-                                                #(/t) -> represents time
+shutdown()                                      #(/t) -> represents time
                                                 #(30) -> time in seconds
-shutdown()

@@ -1,4 +1,4 @@
-from selenium import webdriver
+from selenium import webdriver                       #first install selenium (very easy google it :) !!)
 from time import sleep
 
 driver = webdriver.Chrome()
